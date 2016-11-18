@@ -2,7 +2,7 @@
 
 Auto-Hide Desktop will automatically hide your desktop icons and taskbar once the system has been physically idle for more than the users specified time. Programs default is 3 seconds. The user has the ability to auto start this program at system boot and change the idle delay in the settings found in the system tray.
 
-## Example Code - Getting the app list
+## Example Code - Toggling desktop icons
 
 ToggleDeskIcons(idle_time){
 	DetectHiddenWindows, On
